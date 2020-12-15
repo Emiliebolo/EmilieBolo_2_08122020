@@ -40,5 +40,167 @@ align-items: baseline;
 	
 }
 
+/* Navigation*/
+#conteneur 
+{
+	font-size: 1em;
+    font-weight: normal;
+    display:flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+ 
+ nav ul
+ {	
+     list-style-type: none;
+     display:flex; 
+     align-items: flex-end;
+
+
+ }
+nav li
+{
+	margin-right: 75px;
+}
+nav a 
+{
+	font-size: 0.9em;
+	color: #181818;
+	padding-bottom: 3px;
+	text-decoration: none;
+
+}
+ nav a:hover /* Apparence au survol des liens*/
+ {
+ 	color: #DEEBFF solid;
+
+ }
+
+p
+{
+display: flex;
+justify-content: flex-start;
+height: 35px;
+text-align: center;
+margin-left: 5%;
+
+}
+label
+{
+	/*Encadrement avec ordre inversé */
+	order: 3;
+	border: 1px #0065FC solid;
+	border-radius: 0px 10px 10px 0px;
+	background-color: #0065FC;
+	width: 82px;
+	height:34px;
+	/*Centrer le mot rechercher*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+	
+}
+input
+{
+	order: 2;
+	width: 190px;
+	border-bottom: 1px #F2F2F2 solid;
+	border-top: 1px #F2F2F2 solid;
+	border-right: 1px #0065FC solid;
+	border-left:1px #F2F2F2 solid;
+	
+}
+i
+{
+
+	border: 1px #F2F2F2 solid;
+	border-radius: 10px 0px 0px 10px;
+	background-color: #F2F2F2;
+	width: 43px;
+	height: 34px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+  #conteneur2
+{
+
+    font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-right: 600px;
+	margin-top: 40px;
+	margin-left: 2.5%;
+}
+
+.Economique
+{
+border:2px #F2F2F2 solid;
+border-radius: 30px 30px 30px 30px;
+width: 120px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Familial
+{
+border:2px #F2F2F2 solid;
+border-radius: 30px 30px 30px 30px;
+width: 120px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.Romantique
+{
+border:2px #F2F2F2 solid;
+border-radius: 30px 30px 30px 30px;
+width: 120px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;;
+ }
+.Animaux
+{
+border:2px #F2F2F2 solid;
+border-radius: 30px 30px 30px 30px;
+width: 120px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.filtres
+{
+border:2px #FFFFFF solid;
+border-radius: 30px 30px 30px 30px;
+width: 120px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+ aside i
+{
+	border: 1px #DEEBFF solid;
+	border-radius: 50%;
+	background-color: #DEEBFF;
+	width: 43px;
+	height: 34px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
