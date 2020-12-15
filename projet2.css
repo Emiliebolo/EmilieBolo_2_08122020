@@ -25,3 +25,20 @@ header
 	display: flex;
 	flex-direction: column;
 }
+
+#logo
+{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+}
+
+#logo img
+{
+	width: 95px;
+	height: 45px;
+	
+}
+
+
+
