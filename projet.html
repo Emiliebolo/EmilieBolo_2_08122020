@@ -1,104 +1,134 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="UTF-8"/>
-	<link rel="stylescheet" href="style.css" />
-	<Title>Reservia</Title>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+  <Title>Reservia</Title>
+  <script src="https://kit.fontawesome.com/11d4eb7c41.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet"> 
 </head>
 
-
 <body>
-   <div id="haut de la page">
-   	 <header>
-   	   	  <div id="titre principal">
-   	   </div>
+  <div id="bloc_page">
+     <header>
+      <div id="titre_principal">
+       <div id="logo">
+        <img src="image/reservia.png" alt="logo de reservia"/>
+         <div id="conteneur">
+        <div class="element1">Trouver votre hébergement pour des vacances de rêve
+        </div>
+        <div class="element2">En plein centre ville ou en pleine nature</div>
+        </div>
+      </div> 
+     </div>
 
-   	    <nav>
-   	    	<h1>Reservia</h1>
-   	   	 <ul>
-   	   	 	<li><a href="#">Hèbergements</a> </li>
-   	   	 	<li><a href="#">Activités</a> </li>
-   	   	 	<li><a href="#">S'inscrire</a> </li>
-   	   	 </ul>
-   	    </nav>
-   	 </header>
+
+        <nav>
+         <ul>
+          <li><a href="#">Hèbergements</a> </li>
+          <li><a href="#">Activités</a> </li>
+          <li><a href="#">S'inscrire</a> </li>
+         </ul>
+        </nav>
+
+    </header>
       
-     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-     <h2> En plein centre ville ou en pleine nature</h2>
-     <form method="post" action="">
-     	<p>
-     		<label for="Ville"> Rechercher :</label>
-     		<input type="text" name="ville" id="ville" placeholder="Marseille,France"/>
-     	</p>
-     	   <p>Filtres</p>
-           <li>Economique</li>
-           <li>Familial</li>
-           <li>Romantique</li>
-           <li>Animaux autorisés</li>
+    <form method="post" action="">
+      <p>
+        <label for="Ville"> Rechercher </label>
+        <input type="text" name="ville" id="ville" placeholder="Marseille,France"/>
+        <i class="fas fa-map-marker-alt"></i>
+      </p>
+
+    <aside>
+        <div id="conteneur2">
+         <div class="filtres">Filtres</div>
+         <div class="Economique">Economique</div>
+         <i class="fas fa-money-bill-wave"></i>
+         <div class="Familial">Familial</div>
+         <i class="fas fa-child"></i>
+         <div class="Romantique">Romantique</div>
+         <i class="fad fa-heart-circle"></i>
+         <div class="Animaux">Animaux autorisés</div>
+         <i class="fas fa-dog"></i>
+        </div>
+        </aside>
 
 
-     <section>
-     	<h3>Hébergements à Marseille</h3><br>
-     	<div id="conteneur">
-     		<div class="photo 1">Auberge la Cannebière </div>
-     		<div class="photo 2">Hôtel du port </div>
-     		<div class="photo 3">Hôtel les mouettes </div>
-     		<div class="photo 4">Hôtel de la mer </div>
-     		<div class="photo 5">Auberge le panier </div>
-     		<div class="photo 6">Hôtel chez Amina</div><br>
-     	<h5>Afficher plus</h5>
-     	</div>	
+<section>
+      <h3>Hébergements à Marseille</h3><br>
+      
+      <div id="conteneur3">
+        
+         <img src="image/aubergelacannebiere.jpg" class="meme_hauteur" />
+         <img src="image/hotelduport.jpg" class="meme_hauteur"/>
+        
+         <img src="image/hotel les mouettes.jpg" class="meme_hauteur"/>
+        
+         <img src="image/hoteldelamer.jpg" class="lamer"/><br/>
+        
+         <img src="image/aubergelepanier.jpg" class="lepanier"/>
+        
+         <img src="image/hotelchezamina.jpg" class="zamina"/>
+        <br>
+      </div>
+      <h5>Afficher plus</h5>
+      
+ </section>
 
-     	<h3>Les plus populaires</h3><br>
-     	<div id="conteneur">
-     		<div class="photo 1">Hôtel Le soleil du matin </div>
-     		<div class="photo 2">Au coeur de l'eau Chambres d'hôtes </div>
-     		<div class="photo 3">Hôtel Tout bleu et blanc </div>
-     	</div>
+<section>
 
+      <h3>Les plus populaires</h3><br>
+      <div id="conteneur4">
+        
+      <img src="image/lesoleildumatin.jpg" />
+        
+      <img src="image/aucoeur.jpg" />
+      
+      <img src="image/toutbleu.jpg" />
+      </div>
 
-     	<h3>Activités à Marseille</h3><br>
+</section>
 
-     <div id="conteneur">
-     	<div class="photo 1">Vieux port </div>
-     		<div class="photo 2">Fort de Pomégues </div>
-     		<div class="photo 3">Iles du Frioul </div>
-     		<div class="photo 4">Parc national des Calanques </div>
-     		<div class="photo 5">Notre-Dame-de-la-Garde </div>
-     		<div class="photo 6">Parc Longchamp</div><br>
-     	</div>
-           
+<section>
+      <h3>Activités à Marseille</h3><br>
 
+     <div id="conteneur5">
      
+        <img src="image/vieuxport.jpg" /></p>
+        
+        <img src="image/fort.jpg" /></p>
+        
+        <img src="image/iles.jpg" /></p>
+        
+        <img src="image/parcnational.jpg" /></p>
+        
+        <img src="image/notredame.jpg" /></p>
+        
+        <img src="image/longchamp.jpg" /></p>
+      </div>
+</section>
 
-     </section>
-         
 <footer>
-	<div id="A propos">
-		<h1>A propos</h1>
-			<p>Fonctionnement du site</p>
-			<p>Conditions générales de vente</p>
-			<p>Données et confidentialité</p>
-	</div>
+    
+  <div id="Apropos">
+    <h1>A propos</h1>
+      <p>Fonctionnement du site <br>Conditions générales de vente<br>Conditions générales de vente<br>Données et confidentialité</p>
+  </div>
 
-	<div id="Nos hébergements">
-		<h1>Nos hébergements</h1>
-		   <p>Charte qualité</p>
-		   <p>Soumettre votre hôtel</p>
+  <div id="Noshébergements">
+    <h1>Nos hébergements</h1>
+       <p>Charte qualité<br>Soumettre votre hôtel</p>
     </div>
 
     <div id="Assistance">
-    	<h1>Assitance</h1>
-    	   <p>Centre d'aide</p>
-    	   <p>Nous contacter</p>
+      <h1>Assitance</h1>
+         <p>Centre d'aide<br>Nous contacter</p>
     </div>
 </footer>
 
-
-
-
-
-
-
+     </div>
 
 </body>
+</html>
