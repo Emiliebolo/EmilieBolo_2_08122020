@@ -18,3 +18,10 @@ header
 	align-items: flex-end;
 	margin-left: 5%;
 }
+
+
+#titre_principal
+{
+	display: flex;
+	flex-direction: column;
+}
