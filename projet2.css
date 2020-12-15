@@ -1,13 +1,20 @@
-
-
-ul
+body
 {
-	display: flex;
-	flex-direction: row; 
-	justify-content: flex-end;
+
 }
 
-p
+#bloc-page
 {
-	color: blue;
+	width: auto;
+	margin-left: 5%;
+}
+
+/*Header*/
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-left: 5%;
 }
