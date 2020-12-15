@@ -258,8 +258,58 @@ height: 200px;
     align-items: flex-start;
  }
 
+ /*footer*/
+
+footer 
+{
+	display: flex;
+	flex-direction: wrap;
+    justify-content: space-between; 
+    align-items: flex-start;
+    margin-right: 0%;
+    padding-bottom: 2%;
+    background-color: #F2F2F2;
 
 
- 
+
+}
+footer p 
+{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-right: 200px;
+	font-size: 12px;
+    padding-bottom: 15%;
+    margin-right: 5%;
+
+}
+
+#Apropos h1 
+{
+	font-size: 20px;
+  
+
+}
+
+#Noshébergements h1 
+{
+	font-size: 20px;
+    
+    
+   
+ }   
+
+#Assistance h1 
+{
+	font-size: 20px;
+   
+}
+
+
+
+
 
 
