@@ -71,3 +71,30 @@ img
 	border-top: 3px solid #0065FC;
 	padding: 2rem;
 }
+
+ection
+ {
+ 	max-width: 1390px;
+    margin: auto;
+    padding: 0.2rem;
+    box-sizing: border-box;
+ }
+
+ .title
+ {
+     margin-bottom: 0.5rem;
+
+ }
+h1 
+{
+    font-size: 1.5em;
+    margin: 0.67em 0;
+}
+
+.second_title 
+{
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
