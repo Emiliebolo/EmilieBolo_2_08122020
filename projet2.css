@@ -222,3 +222,11 @@ h1
         margin-left: 2.7rem;
         font-weight: bold;	
 }
+
+.closed_filters_Dog
+{
+	    margin: 0 1rem;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+        font-weight: bold;
+}
