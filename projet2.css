@@ -208,3 +208,10 @@ h1
         margin-left: 3rem;
         font-weight: bold;
 }
+
+.closed_filters_family
+{
+	    margin: 0 1rem;
+        margin-left: 4rem;
+        font-weight: bold;
+}
