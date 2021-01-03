@@ -635,3 +635,211 @@ closed_filters
         margin-bottom: 35px;
 
     }
+
+    .activity
+    {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+        max-width: 1400px;
+
+    }
+
+    .activity_header
+    {
+        white-space: nowrap;
+        font-weight: 700;
+        margin-bottom: : 30px;
+
+    }
+    .activity_all
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 0;
+      } 
+     
+     .activity_1
+     {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 370px;
+        width: 224.5px;
+        margin-top: 40px;
+    
+     }
+
+     .activity_2
+     {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 170px;
+        width: 260px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .activity_3
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 150px;
+        width: 260px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .activity_4
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 370px;
+        width: 224px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    
+    .activity_5
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 160px;
+        width: 260px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .activity_6
+    {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        height: 160px;
+        width: 260px;
+        margin-left: 20px;
+        margin-top: 40px;
+    }
+    .activity_1_img
+    {
+        
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        background-size: 100% 100%;
+        margin-left: -8px;
+        margin-top: -18px;  
+
+    }
+    .activity_4_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-left: -8px;
+        margin-top: -18px;
+        
+    }
+    .activity_2_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -19px;
+        margin-left: -8px;
+       
+    }
+    .activity_3_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -19px;
+        margin-left: -8px;
+        
+    }
+    .activity_5_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -19px;
+        margin-left: -8px;
+        
+    }
+    .activity_6_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -19px;
+        margin-left: -8px;
+        
+    }
+
+
+    .activity_1_img_1
+    {
+        width: 234px;
+        height: 320px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        object-fit: cover;
+
+    }
+    
+    .activity_2_img_2
+    {
+        width: 270px;
+        height: 120px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        object-fit: cover;
+
+    }
+    .activity_3_img_3
+    {
+        width: 270px;
+        height: 102px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        object-fit: cover;
+
+    }
+    .activity_5_img_5
+    {
+        width: 270px;
+        height: 115px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        object-fit: cover;
+
+    }
+
+    .activity_title
+    {
+        font-size: 12px;
+
+    }
+    .activity_title_img
+    {
+        padding-left: 20px;
+    
+
+    }
