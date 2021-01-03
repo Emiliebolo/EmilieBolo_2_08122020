@@ -78,6 +78,48 @@
       border-top: 3px solid #0065FC;
 
     }
+    @media (max-width: 575px)
+ {
+    .header
+    {
+        display: flex;
+        max-width: 100%;
+        padding: 0%;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    .disposition_Nav  
+{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+       
+    .disposition_hebergement  
+    {   
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    .disposition_inscrire
+    {
+        display: flex;
+        text-align: center;
+        color: #0065FC;
+        font-weight: 600;
+        padding: 30px;
+    }
+
+    .disposition_activity
+    {
+        padding: 30px;
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+    }
+ }
 
 section
  {
