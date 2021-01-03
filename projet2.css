@@ -2,77 +2,126 @@
 
 
 
-body{
-	font-family:"Raleway","Sans serif";
-	margin: 0;
-	min-height: 100%;
+ body
+    {
+      font-family:"Raleway","Sans serif";
+      margin: 0;
+      min-height: 100%;
 
-}
+    }
 
-.header
-{
-	display: flex;
-	align-items: center;
-	max-width: 1390px;
-	margin: auto;
-}
+    .header
+    {
+      display: flex;
+      align-items: center;
+      max-width: 1400px;
+      margin: auto;
+        justify-content: space-between;
+    }
 
-{
-	display: flex;
-    flex-direction: row;
-    align-items: baseline;
-}
-img
-{
-	border-style: none;
-	padding: 0.2rem;
-    height: 2.8rem;
-    margin-top: 4%;
-}
-.disposition_Nav  
+    img
+    {
+      border-style: none;
+      padding: 3px;
+        height: 60px;
+        margin-top: 4%;
+    }
+    @media (max-width: 576px)
+    {
+    img{width: 90px;
+         }
+        }
+
+    .disposition_Nav  
 {
     display: flex;
-    align-items: center;
     list-style-type: none;
-    justify-content: flex-end;
-    position: relative;
-    top: 30px;
-    left: 900px;
+    flex-direction: row-reverse;
+    margin-top: 50px;
+
+    
 }
-   
-.disposition_hebergement  
-{
-    padding: 2rem;
-    text-align: center;
-    border-top: 3px solid #0065FC;
-    color: #0065FC;
-}
-.disposition_inscrire
+       
+    .disposition_hebergement  
+    {   
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        border-top: 3px solid #0065FC;
+        color: #0065FC;
+        
+    }
+    .disposition_inscrire
+    {
+        display: flex;
+        align-items: center;
+        padding: 30px;
+        color: #0065FC;
+        font-weight: 600;
+        margin-left: -10%;
+       
+    }
+    .disposition_inscrire:hover
+    {
+      border-top: 3px solid #0065FC;
+      padding: 30px;
+    }
+    .disposition_activity
+    {
+      padding: 30px;
+        display: flex;
+       
+    }
+
+    .disposition_activity:hover
+    {
+      border-top: 3px solid #0065FC;
+
+    }
+    @media (max-width: 575px)
+ {
+    .header
+    {
+        display: flex;
+        max-width: 100%;
+        padding: 0%;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+    .disposition_Nav  
 {
     display: flex;
-    align-items: center;
-    grid-area: button;
-    padding: 1rem;
-    color: #0065FC;
-    font-weight: 600;
+    list-style-type: none;
+    
+    
 }
-.disposition_inscrire:hover
-{
-	border-top: 3px solid #0065FC;
-	padding: 2rem;
-}
-.disposition_activity
-{
-	padding: 4rem;
-}
+       
+    .disposition_hebergement  
+    {   
+        display: flex;
+        padding: 30px;
+        text-align: center;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    .disposition_inscrire
+    {
+        display: flex;
+        text-align: center;
+        color: #0065FC;
+        font-weight: 600;
+        padding: 30px;
+    }
 
-.disposition_activity:hover
-{
-	border-top: 3px solid #0065FC;
-	padding: 2rem;
-}
+    .disposition_activity
+    {
+        padding: 30px;
+        display: flex;
+        border-bottom: 3px solid #F2F2F2;
+    }
+ }
 
-ection
+section
  {
  	max-width: 1390px;
     margin: auto;
