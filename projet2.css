@@ -1039,3 +1039,44 @@ closed_filters
 
     }
     }
+
+    .footer
+    {
+        background-color: #F2F2F2;
+        width: 100%;
+        
+    }
+
+    .footer_body
+    {
+      max-width: 100%;
+      width: 1400px;
+      margin: auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: row;
+    }
+    .footer_body_body
+    {
+      width: 40%;
+      margin: 15px 0;
+    }
+    .footer_body_link
+    {
+        display: block;
+        margin: 15px 0;
+    }
+
+    @media (max-width: 575px)
+    {
+    .footer_body
+    {
+      max-width: 100%;
+      width: 1400px;
+      margin: auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      white-space: nowrap;
+    }
+    }
