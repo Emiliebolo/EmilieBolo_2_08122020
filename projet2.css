@@ -225,6 +225,47 @@ section
         display: none;
         color:  #0065FC;
     }
+    @media (max-width: 575px) 
+{
+  .search_form 
+  {
+    display: flex;
+    width: auto;
+    margin-left: 5%;
+  }
+
+  .search_input
+  {
+        border-top: #F2F2F2 1px solid;
+        border-bottom: #F2F2F2 1px solid;
+        border-right: none;
+        padding: 0 20px;
+        box-sizing: border-box;
+       font-size: 13px;
+       font-weight: bold;
+       font-family: "Raleway","Sans serif";
+       width: 200px;
+  }
+  .search_input_button
+    {
+
+        background-color: #0065FC;
+        border: none;
+        border-radius: 15px 15px 15px 15px;
+        width: 55px;
+        cursor: pointer;
+    }
+  .search_input_button_S 
+  {
+    display: none;
+  }
+  .search_input_button_icon 
+  {
+    display: block;
+    color: white;
+  }
+} 
+
 
 .closed_filters
 {
