@@ -337,3 +337,57 @@ closed_filters
             justify-content: center;
             text-align: center
     }
+    @media (max-width: 575px)
+ {
+
+    .filters_title
+    {
+        width: 100%;
+        margin-left: 10px;
+    }
+    .closed_filters_filtres
+    {
+        margin: 10px;
+
+        
+    }
+    
+    .closed_filters_filtres:hover
+    {
+        background-color: #F2F2F2;
+    }
+
+    .closed_filters_filtres_icon
+    {
+            background-color: #DEEBFF;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+            min-height: 50px;
+            min-width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: -2px;
+            text-align: center
+      }
+      .closed_filters_filtres_icon2
+      {
+             font-weight: 900;
+             display: inline-block;
+             line-height: 1;
+             color: blue; 
+
+      }
+
+    .closed_filters_mix
+    {
+            margin-left: 20px;
+            font-weight: bold;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+    }
+ }
