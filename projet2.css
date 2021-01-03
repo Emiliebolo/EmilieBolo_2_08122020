@@ -122,30 +122,30 @@
  }
 
 section
- {
- 	max-width: 1390px;
-    margin: auto;
-    padding: 0.2rem;
-    box-sizing: border-box;
- }
+     {
+      max-width: 1400px;
+        margin: auto;
+        padding: 3px;
+        box-sizing: border-box;
+     }
 
- .title
- {
-     margin-bottom: 0.5rem;
+     .title
+     {
+         margin-bottom: 6px;
 
- }
-h1 
-{
-    font-size: 1.5em;
-    margin: 0.67em 0;
-}
+     }
+    h1 
+    {
+        font-size: 25px;
+        margin: 40px 0;
+    }
 
-.second_title 
-{
-    margin-top: 0;
-    font-weight: normal;
-    font-size: 1.2em;
-}
+    .second_title 
+    {
+        margin-top: 0;
+        font-weight: normal;
+        font-size: 20px;
+    }
 
 .search_form 
 {
