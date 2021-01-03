@@ -1066,3 +1066,17 @@ closed_filters
         display: block;
         margin: 15px 0;
     }
+
+    @media (max-width: 575px)
+    {
+    .footer_body
+    {
+      max-width: 100%;
+      width: 1400px;
+      margin: auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      white-space: nowrap;
+    }
+    }
