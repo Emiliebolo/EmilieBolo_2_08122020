@@ -531,3 +531,107 @@ closed_filters
         font-weight: 600;
 
     }
+
+    .most_popular
+     {
+        
+        background-color: #F2F2F2;
+        border-radius: 30px;
+        margin-left: 25px;
+        width: 30%;
+    }
+
+    .most_popular_header 
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 26px ;
+        margin-bottom: 80px;
+        margin-right: 10px;
+    }
+
+    .most_popular_header_title 
+    {
+        margin-bottom: 0%;
+
+       }
+
+    .most_popular_header_icon 
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        margin-top: 20px;
+    }
+
+    .most_popular_header_icon_icon 
+    {
+        font-size: 30px;
+    }
+
+    .most_popular_accomodation
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 23px 23px 65px 23px;
+        
+       
+    }
+
+    .most_popular_accomodation_img
+    {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        transition-duration: 0.1s;
+        height: 180px;
+        
+       
+    }
+
+    .most_popular_accomodation_title:hover 
+    {
+        transform: scale(1.01);
+    }
+
+
+    .most_popular_accomodation_img_img
+    {
+        width: 125px;
+        height: 175px;
+        object-fit: cover;
+        border-radius: 25px 0 0 25px;
+        margin: 0;
+    }
+
+    .most_popular_accomodation_title 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 10px 15px;
+
+    }
+
+    .most_popular_accomodation_title_title 
+    {
+         margin: 0;
+        font-size: 17px;
+    }
+
+    .most_popular_accomodation_description 
+    {
+       margin-bottom: 75px;
+    }
+
+    .most_popular_accomodation_allstar
+    {
+        color: blue;
+        margin-bottom: 35px;
+
+    }
