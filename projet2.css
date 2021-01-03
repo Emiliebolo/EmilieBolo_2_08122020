@@ -432,3 +432,102 @@ closed_filters
         margin: 0;
         font-family: "Raleway", "Sans serif";
     }
+    .accomodation
+    {
+        display: flex;
+        margin: auto;
+        
+        
+    }
+
+    .accomodation_marseille
+    {
+       
+        display: flex;
+        gap: 20px;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        padding: 30px;
+        white-space: nowrap;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 70%;
+        height: auto;
+       
+        
+    }
+
+    .accomodation_marseille_title
+    {
+        margin: 25px 596px 25px 0px;
+        font-weight: 700;
+       
+     }
+
+    .accomodation_marseille_info
+    {
+       margin: 10px 30px 0 30px; 
+       
+    }
+
+    .accomodation_marseille_articles
+    {
+        background-color: white;
+        border-radius: 25px;
+        box-shadow: 0 0 12px #0000002E;
+        cursor: pointer;
+        height: 30%;
+        width: 31.2%;
+        
+    }
+
+    .figure
+    {
+      margin: 0;
+    }
+
+    a
+    {
+      text-decoration: none;
+      background-color: transparent;
+      cursor: pointer;
+      color: black;
+       
+    }
+
+    .accomodation_marseille_img
+    {
+      height: 120px;
+        object-fit: cover;
+        width: 280px;
+        border-radius: 25px 25px 0 0;
+        margin: 0.30px 0.7px 0.70px 0;
+        
+
+    }
+
+    .figcaption
+    {
+         margin: 0;
+         white-space: nowrap;
+         
+
+    }
+
+    .figcaption_title
+    {
+         margin: 10px 30px 0 30px;
+            }
+
+    .accomodation_marseille_allstar
+    {
+        margin: 10px 10px 0 30px;
+        color: blue; 
+    }
+    .show_more
+    {
+        margin: 50px 0px 0px 0;
+        font-weight: 600;
+
+    }
