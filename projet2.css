@@ -122,9 +122,6 @@
         border-bottom: 3px solid #F2F2F2;
         margin-top: -50px;
     }
-
-    }
-
  }
      section
      {
@@ -368,7 +365,7 @@
             align-items: center;
             justify-content: center;
             margin: -2px;
-            text-align: center
+            text-align: center;
       }
       .closed_filters_filtres_icon2
       {
@@ -958,7 +955,7 @@
     
 
     }
-    @media(max-width: 575px)
+    @media (max-width: 575px)
     {
 
     .activity
