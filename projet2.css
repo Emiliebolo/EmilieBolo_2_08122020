@@ -28,7 +28,10 @@
     }
     @media (max-width: 576px)
     {
-    img{width: 90px;
+    img
+    {
+        width: 90px;
+        margin-left: 5%;
          }
         }
 
@@ -78,31 +81,32 @@
       border-top: 3px solid #0065FC;
 
     }
-    @media (max-width: 575px)
+ @media (max-width: 575px)
  {
     .header
     {
         display: flex;
         max-width: 100%;
-        padding: 0%;
+        flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-between;
       }
     .disposition_Nav  
 {
     display: flex;
     list-style-type: none;
-    
-    
+    font-size: 13px;
 }
        
     .disposition_hebergement  
     {   
         display: flex;
-        padding: 30px;
         text-align: center;
         border-bottom: 3px solid #0065FC;
         color: #0065FC;
+        border-top: none;
+        margin-left: 70px;
+        margin-top: -50px;
     }
     .disposition_inscrire
     {
@@ -110,17 +114,18 @@
         text-align: center;
         color: #0065FC;
         font-weight: 600;
-        padding: 30px;
+        margin-top: -110px;
+        margin-right: 400px;
     }
 
     .disposition_activity
     {
-        padding: 30px;
         display: flex;
         border-bottom: 3px solid #F2F2F2;
+        margin-top: -50px;
     }
- }
 
+    }
 section
  {
  	max-width: 1390px;
