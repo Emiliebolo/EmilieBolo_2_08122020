@@ -1,19 +1,22 @@
-@media (max-width: 768px)
+@media (min-width: 576px) and (max-width: 768px)
  {
 
  	body
     {
       font-family:"Raleway","Sans serif";
       max-width:1400px;
-      margin: 5%;
+      margin: auto;
     }
 
-    img
+    .header img
     {
       border-style: none;
       padding: 3px;
       height: 50px;
-      margin-left: -60px;
+      position: absolute;
+      top: 0;
+      left: 10px;
+      
     }
 
     .header
@@ -23,6 +26,7 @@
        flex-wrap: wrap;
        flex-direction: row;
        justify-content: space-around;
+       justify-content: flex-end;
         
      }
 
@@ -45,7 +49,7 @@
         display: inline-flex;
         max-width: 100%;
         height: 60px;
-        margin-left: auto;
+        margin: 5px;
         
     }
 
@@ -53,7 +57,7 @@
     {
         display: flex;
         align-items: center;
-        margin: auto;
+        margin: 5px;
     }  
     
      
@@ -64,15 +68,15 @@
         margin: auto;
     }
 
-       .accomodation_marseille:first-child
+       .accomodation_marseille
     {
        
         display: flex;
         background-color: #F2F2F2;
         border-radius: 25px;
         width: auto;
-        order: 2; 
-       
+        order: 2;
+        justify-content: center;       
 
     }
 
@@ -80,8 +84,8 @@
     {
         
         font-weight: 700;
-        font-size: 19px;
-        margin-top: -10px;
+        font-size: 23px;
+        margin-left: 140px;
 
     }
 
@@ -95,6 +99,7 @@
         cursor: pointer;
         height: 170px;
         width: 300px;
+        
     }
 
     .accomodation_marseille_img
@@ -124,7 +129,7 @@
     }
     .show_more
     {
-        margin: 0 0 0 -10px;
+        margin-right:  auto;
         font-weight: 600;
         font-size: 13px;
 
@@ -217,7 +222,8 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-bottom: 40px;
+        padding-bottom: 10px;
+        margin: auto;
 
     }
 
@@ -226,7 +232,7 @@
         white-space: nowrap;
         font-weight: 700;
         margin-bottom: 20px;
-        margin-left: 5%;
+        margin: 10px;
 
     }
     .activity_all
@@ -234,32 +240,27 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-between;
+        justify-content: space-around;
 
-        
-      } 
-
-      .activity_1_4_img
-    {
-        
-        border-top-right-radius: 25px;
-        border-top-right-radius: 25px;
-        background-size: 100% 100%;
-        margin-left: 52px;
-        margin-top: -10px;  
-
+     }
+       
+     .activity_css
+   {
+        display: flex;
+        background-color: white;
+        border-radius: 28px;
+        border: 5px solid white;
+        box-shadow: 0 0 12px #0000002E;
+        margin-left: 20px;
+        margin-top: 40px;
     }
-     .activity_2_3_5_6_img
-    {
-        background-size: 100% 100%;
-        border-top-right-radius: 25px;
-        border-top-right-radius: 25px;
-        margin-top: -10px;
-        margin-left: 52px;
      
+.activity_1_4
+    {
+        height: 370px;
+        width: 224px;
     }
-
-    .activity_2
+.activity_2
     {
         height: 170px;
         width: 340px;
@@ -279,8 +280,36 @@
         width: 340px;
 
     }
+   
+.activity_1_4_img
+    {
+        
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        background-size: 100% 100%;
+        margin-left: -9px;
+        margin-top: -10px;  
 
- .activity_2_img_2
+    }
+.activity_2_3_5_6_img
+    {
+        background-size: 100% 100%;
+        border-top-right-radius: 25px;
+        border-top-right-radius: 25px;
+        margin-top: -9px;
+        margin-left: -8px;
+   }
+.activity_1_4_img_1_4
+    {
+        width: 235px;
+        height: 320px;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        object-fit: cover;
+
+    }
+    
+.activity_2_img_2
     {
         width: 350px;
         height: 120px;
@@ -308,19 +337,24 @@
 
     }
 
+    .footer
+    {
+        background-color: #F2F2F2;
+        width: 100%;   
+
+    }
+        
     .footer_body
     {
       max-width: 100%;
-      width: 1400px;
-      margin: auto;
-      padding: 0 40px;
       display: flex;
       flex-direction: row;
+      margin: auto;
 
     }
 .footer_body_body
     {
-      width: 40%;
+      
       margin: 15px ;
     }
 .footer_body_link
@@ -328,8 +362,5 @@
         display: block;
         margin: 15px 0;
     }
-
-
-
 
     }

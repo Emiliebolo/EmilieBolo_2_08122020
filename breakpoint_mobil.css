@@ -6,8 +6,9 @@
         max-width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-between;
-        margin-top: 30px;
+        justify-content: space-around;
+        padding-bottom: 60px;
+       
 
     }
 
@@ -16,13 +17,25 @@
       border-style: none;
       position: absolute;
       top: 0;
-      margin-left: -240px;
+      left: 10px;
       height: 40px;
     }
-    .position_log_in
+
+
+    .disposition_Nav  
+   {
+    display: flex;
+    list-style-type: none;
+    font-size: 13px;
+    padding-bottom: 60px;
+   
+   }
+
+   .position_log_in
     {
         position: absolute;
-        margin: -40px -60px 0 0;
+        top: 0;
+        right: 10px;
         font-size: 13.5px;
         font-weight: 800;
         color: blue;
@@ -30,36 +43,27 @@
         
     }
 
-    .disposition_Nav  
-   {
-    display: flex;
-    list-style-type: none;
-    font-size: 13px;
-     
-   }
-
 
    .position_activity
    {
         border-bottom: 3px solid #0065FC;
-        border-bottom-width: 3px;
+        border-top: none;
+        position: absolute;
+        top: 30px;
+        right: 85px;
    }
 
    .position_accomodation
    {
         border-bottom: 3px solid #F2F2F2;
-        border-bottom-width: 3px;
+        border-top: none;
+        position: absolute;
+        top: 30px;
+        left: 85px;
 
-   }
-   .disposition_Nav li:hover
-   { color: inherit;
-     border-top: 3px solid white;
     }
-     
-   .disposition_Nav li a:hover
-   { color: inherit;
-     border-top: 3px solid white;
-    }
+
+  
     
     section
     {
@@ -191,7 +195,7 @@
         
     }
 
-    .accomodation_marseille:first-child
+    .accomodation_marseille
     {
        
         display: flex;
@@ -199,6 +203,7 @@
         border-radius: 25px;
         padding: 20px;
         order: 2;
+        width: auto;
     }
 
     .accomodation_marseille_title
@@ -206,7 +211,7 @@
         
         font-weight: 700;
         font-size: 19px;
-        margin-top: -10px;
+        margin: 0 0 0 5px;
 
     }
 
@@ -218,6 +223,7 @@
         cursor: pointer;
         height: 170px;
         width: 300px;
+        margin: auto;
     }
 
     .accomodation_marseille_img
@@ -261,8 +267,8 @@
         
         background-color: #F2F2F2;
         border-radius: 30px;
-        margin: auto;
-        
+        margin: 0 0 10px 0;
+        width: auto;
     }
 
     .most_popular_header 
@@ -276,9 +282,6 @@
     {
         display: flex;
         flex-direction: column;
-        margin: auto;
-        
-       
     }
 
     .most_popular_accomodation_title 
@@ -313,23 +316,17 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin: auto;
+        margin: 0 0 10px 0;
     }
 
     .activity_header
     {
         white-space: nowrap;
         font-weight: 700;
-        margin-bottom: 20px;
-        margin: auto;
+        margin: 0 0 10px 5px;
 
     }
 
-    .activity_all
-    {
-        
-        padding-right: 30px;
-    } 
 
     .activity_css
    {
@@ -338,48 +335,13 @@
         border-radius: 28px;
         border: 5px solid white;
         box-shadow: 0 0 12px #0000002E;
-       
-    }
-     
-     
-     .activity_1_4
-     {
-         height: 110px;
+         height: 140px;
          width: 320.5px;
-         margin: 0 0 30px 0;
-         padding-bottom: 30px;
+ }
 
-         
+    
 
-     }
-
-    .activity_2
-    {
-        height: 110px;
-        width: 320.5px;
-        margin: 0 0 30px 0;
-        padding-bottom: 30px;
-         
-    }
-    .activity_3
-    {
-        height: 110px;
-        width: 320.5px;
-        margin: 0 0 30px 0;
-        padding-bottom: 30px;
-         
-    }
-
-    .activity_5_6
-    {
-       height: 110px;
-       width: 320.5px;
-       margin: 0 0 30px 0;
-       padding-bottom: 30px;
-        
-    }
-
-    .activity_1_4_img
+    .activity_1_2_3_4_5_6_img
     {
         
         background-size: 100% 100%;
@@ -388,49 +350,8 @@
         margin-top: -8px;
         margin-left: -8px;
     }
-
-   .activity_2_3_5_6_img
-    {
-        background-size: 100% 100%;
-        border-top-right-radius: 25px;
-        border-top-right-radius: 25px;
-        margin-top: -8px;
-        margin-left: -8px;
-   }
    
-    .activity_1_4_img_1_4
-    {
-        height: 100px;
-        width: 330px;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        object-fit: cover;
-        margin: auto;
-
-    }
-    .activity_2_img_2
-    {
-
-        height: 100px;
-        width: 330px;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        object-fit: cover;
-        margin: auto;
-    }
-
-     .activity_3_img_3
-    {
-        
-        height: 100px;
-        width: 330px;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        object-fit: cover;
-        margin: auto;
-    }
-
-      .activity_5_6_img_5_6
+    .activity_1_2_3_4_5_6_img_1_2_3_4_5_6
     {
         height: 100px;
         width: 330px;
@@ -441,15 +362,6 @@
 
     }
 
-    {
-        height: 100px;
-        width: 330px;
-        border-top-right-radius: 25px;
-        border-top-left-radius: 25px;
-        object-fit: cover;
-        margin: auto;
-
-    }
     
     .footer_body
     {
