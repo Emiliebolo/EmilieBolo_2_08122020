@@ -1,5 +1,6 @@
  @media (max-width: 575px)
  {
+    
     .header
     {
         display: flex;
@@ -98,7 +99,7 @@
     {
     display: flex;
     width: auto;
-    margin-left: auto;
+    margin-left: 10px;
     }
 
     .search_input
@@ -337,7 +338,7 @@
         box-shadow: 0 0 12px #0000002E;
          height: 140px;
          width: 320.5px;
- }
+    }
 
     
 

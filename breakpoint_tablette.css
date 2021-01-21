@@ -1,14 +1,14 @@
 @media (min-width: 576px) and (max-width: 768px)
  {
 
- 	body
+body
     {
       font-family:"Raleway","Sans serif";
       max-width:1400px;
       margin: auto;
     }
 
-    .header img
+.header img
     {
       border-style: none;
       padding: 3px;
@@ -19,7 +19,7 @@
       
     }
 
-    .header
+.header
     {
        display: flex;
        max-width: 100%;
@@ -30,30 +30,39 @@
         
      }
 
-    .title
+.title
      {
         margin-bottom: 6px;
 
      }
-     .second_title 
+.second_title 
     {
-       margin-top: 0;
+       margin: 5px;
        font-weight: normal;
        font-size: 20px;
        
     }
   
    
-    .search_form 
+.search_form 
     {
         display: inline-flex;
         max-width: 100%;
         height: 60px;
-        margin: 5px;
-        
+        margin: 10px;
     }
 
-       .closed_information
+.closed_filters
+{
+    margin: 5px;
+}  
+
+.filters_title
+   {
+    margin-left: 5px;
+ 
+   }
+.closed_information
     {
         display: flex;
         align-items: center;
@@ -61,14 +70,14 @@
     }  
     
      
-        .accomodation
+.accomodation
     {
         display:flex;
         flex-direction: column;
         margin: auto;
     }
 
-       .accomodation_marseille
+.accomodation_marseille
     {
        
         display: flex;
@@ -80,7 +89,7 @@
 
     }
 
-    .accomodation_marseille_title
+.accomodation_marseille_title
     {
         
         font-weight: 700;
@@ -89,7 +98,7 @@
 
     }
 
-     .accomodation_marseille_articles
+.accomodation_marseille_articles
     {   
 
     	display: flex;
@@ -102,32 +111,33 @@
         
     }
 
-    .accomodation_marseille_img
+.accomodation_marseille_img
     {
         height: 90px;
         object-fit: cover;
         width: 300px;
     }
 
-    .figcaption_title
+.figcaption_title
     {
          margin: 5px 20px 0 20px;
          font-size: 12px;
 
-  }
+   }
+
   .accomodation_marseille_info
     {
        margin: 5px 20px 0 20px; 
        box-sizing: border-box;
        font-size: 12px;
     }
-     .accomodation_marseille_allstar
+.accomodation_marseille_allstar
     {
         margin: 5px 10px 0 20px;
         color: blue;
         font-size: 10px; 
     }
-    .show_more
+.show_more
     {
         margin-right:  auto;
         font-weight: 600;
@@ -135,7 +145,7 @@
 
     }
   
-        .most_popular
+.most_popular
      {
         
         background-color: #F2F2F2;
@@ -144,14 +154,14 @@
         width: auto;
     }
 
-    .most_popular_header 
+.most_popular_header 
     {
         display: flex;
         justify-content: space-between;
         margin: 2px 2px 2px 20px;
 
    }
-   .most_popular_header_icon 
+.most_popular_header_icon 
     {
         display: flex;
         align-items: center;
@@ -160,7 +170,7 @@
         margin-right: 20px;
     }
 
-    .most_popular_accomodation
+.most_popular_accomodation
     {
         display: flex;
         flex-direction: row;
@@ -171,7 +181,7 @@
         
        
     }
-    .most_popular_accomodation_img
+.most_popular_accomodation_img
     {
         display: flex;
         flex-direction: row;
@@ -184,7 +194,7 @@
         width: 280px;
      }
 
-    .most_popular_accomodation_img_img
+.most_popular_accomodation_img_img
     {
         width: 100px;
         height: 145px;
@@ -193,7 +203,7 @@
         margin: 0;
     }
 
-    .most_popular_accomodation_title 
+.most_popular_accomodation_title 
     {
         display: flex;
         flex-direction: column;
@@ -203,20 +213,20 @@
 
     }
 
-    .most_popular_accomodation_title_title 
+.most_popular_accomodation_title_title 
     {
          margin: auto;
         font-size: 14px;
     }
 
-    .most_popular_accomodation_allstar
+.most_popular_accomodation_allstar
     {
         color: blue;
         margin-top: -4px;
 
     }
    
-        .activity
+ .activity
     {
 
         display: flex;
@@ -227,7 +237,7 @@
 
     }
 
-    .activity_header
+.activity_header
     {
         white-space: nowrap;
         font-weight: 700;
@@ -235,7 +245,7 @@
         margin: 10px;
 
     }
-    .activity_all
+.activity_all
     {
         display: flex;
         flex-direction: row;
@@ -244,7 +254,7 @@
 
      }
        
-     .activity_css
+.activity_css
    {
         display: flex;
         background-color: white;
@@ -337,14 +347,14 @@
 
     }
 
-    .footer
+.footer
     {
         background-color: #F2F2F2;
         width: 100%;   
 
     }
         
-    .footer_body
+.footer_body
     {
       max-width: 100%;
       display: flex;
