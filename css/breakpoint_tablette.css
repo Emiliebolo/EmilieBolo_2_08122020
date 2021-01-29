@@ -1,4 +1,4 @@
-@media (min-width: 576px) and (max-width: 768px)
+ @media (min-width: 576px) and (max-width: 768px)
  {
 
 body
@@ -173,9 +173,8 @@ body
 .most_popular_accomodation
     {
         display: flex;
-        flex-direction: row;
-        flex-wrap:  wrap;
-        justify-content: space-between;
+        flex-direction: column;
+       align-items: center;
         gap: 40px;
         margin: 23px 23px 65px 23px;
         
@@ -190,14 +189,14 @@ body
         border: 5px solid white;
         box-shadow: 0 0 12px #0000002E;
         transition-duration: 0.1s;
-        height: 150px;
-        width: 280px;
+        height: 200px;
+        width: 510px;
      }
 
 .most_popular_accomodation_img_img
     {
-        width: 100px;
-        height: 145px;
+        width: 195px;
+        height: 190px;
         object-fit: cover;
         border-radius: 25px 0 0 25px;
         margin: 0;
@@ -208,15 +207,15 @@ body
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        font-size: 12px;
-        margin: 5px;
+        font-size: 17px;
+        margin: 0 0 0 15px;
 
     }
 
 .most_popular_accomodation_title_title 
     {
-         margin: auto;
-        font-size: 14px;
+         margin: 0 0 0 0px;
+         font-size: 16px;
     }
 
 .most_popular_accomodation_allstar
