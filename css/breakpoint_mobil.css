@@ -1,10 +1,16 @@
- @media (max-width: 575px)
+ @media (max-width: 578px)
  {
-    
+    body 
+    {
+        
+        overflow-x: hidden;
+        width: 100%;
+        
+       
+    }
     .header
     {
         display: flex;
-        max-width: 100%;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-around;
@@ -23,7 +29,8 @@
    {
     display: flex;
     list-style-type: none;
-    padding-bottom: 60px;  
+    padding-bottom: 60px; 
+  
    }
 
    .position_log_in
@@ -33,9 +40,7 @@
         right: 10px;
         font-size: 14.5px;
         font-weight: 800;
-        color: blue;
-        
-        
+        color: blue;  
     }
 
 
@@ -48,7 +53,8 @@
         right: 8px;
         font-size: 17px;
         padding-left: 50px;
-        padding-right: 60px;
+        padding-right: 70px;
+      
         
    }
 
@@ -62,15 +68,17 @@
         font-size: 17px;
         padding-left: 20px;
         padding-right: 41px;
+      
 
     }
     
     section
     {
-        max-width: 100%;
+        
         margin: auto;
         padding: 3px;
         box-sizing: border-box;
+        margin: auto;
     }
 
     .title
@@ -191,7 +199,8 @@
     {
         display:flex;
         flex-direction: column;
-        margin: auto;
+        margin: 15px 0 0 0;
+        width: auto;
 
         
     }
@@ -205,6 +214,7 @@
         padding: 20px;
         order: 2;
         width: auto;
+        margin: 15px 0 0 0;
     }
 
     .accomodation_marseille_title
@@ -223,7 +233,7 @@
         box-shadow: 0 0 12px #0000002E;
         cursor: pointer;
         height: 170px;
-        width: 300px;
+        width: 250px;
         margin: auto;
     }
 
@@ -231,7 +241,7 @@
     {
         height: 90px;
         object-fit: cover;
-        width: 300px;
+        width: 250px;
     }
 
     .figcaption_title
@@ -268,27 +278,29 @@
         
         background-color: #F2F2F2;
         border-radius: 30px;
-        margin: 0 0 10px 0;
         width: auto;
+       
+        margin: auto;
     }
 
     .most_popular_header 
     {
         display: flex;
         justify-content: space-around;
-        margin: auto;
+        margin: 0 0 10px 0;
     }
 
     .most_popular_accomodation
     {
         display: flex;
         flex-direction: column;
+       
     }
 
     .most_popular_accomodation_title 
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;width: ;
         justify-content: space-between;
         font-size: 12px;
     }
@@ -318,6 +330,7 @@
         flex-direction: column;
         flex-wrap: wrap;
         margin: 0 0 10px 0;
+    
     }
 
     .activity_header
@@ -338,6 +351,7 @@
         box-shadow: 0 0 12px #0000002E;
          height: 140px;
          width: 320.5px;
+         
     }
 
     
@@ -345,7 +359,7 @@
     .activity_1_2_3_4_5_6_img
     {
         
-        background-size: 100% 100%;
+       
         border-top-right-radius: 25px;
         border-top-right-radius: 25px;
         margin-top: -8px;
@@ -366,8 +380,6 @@
     
     .footer_body
     {
-      max-width: 100%;
-      width: 1400px;
       margin: auto;
       padding: 0 20px;
       display: flex;
